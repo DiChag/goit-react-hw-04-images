@@ -71,9 +71,10 @@ img {
 }
 
 .SearchForm-button {
+  padding: 0;
   display: inline-block;
   width: 115px;
-  height: 48px;
+  height: 35px;
   border: 0;
   font-size: 20px;
   opacity: 0.6;
