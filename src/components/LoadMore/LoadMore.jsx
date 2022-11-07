@@ -1,6 +1,6 @@
 export const LoadMore = ({ onLoadMore }) => {
   return (
-    <button type="button" onClick={onLoadMore}>
+    <button className="Button" type="Button" onClick={onLoadMore}>
       Load More
     </button>
   );
