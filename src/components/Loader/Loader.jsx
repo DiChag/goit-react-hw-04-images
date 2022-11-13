@@ -3,8 +3,8 @@ export const Loader = () => {
   return (
     <div className="Loader">
       <MutatingDots
-        height="100"
-        width="100"
+        height="70"
+        width="70"
         color="#4fa94d"
         secondaryColor="#4fa94d"
         radius="12.5"

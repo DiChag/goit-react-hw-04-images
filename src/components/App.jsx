@@ -62,8 +62,8 @@ export class App extends Component {
     return (
       <>
         <Searchbar onSubmit={this.handleSubmit} />
-        {this.state.isLoading && <Loader />}
         <ImageGallery images={this.state.images} openModal={this.toggleModal} />
+        {this.state.isLoading && <Loader />}
         {!!this.state.totalHits && (
           <LoadMore onLoadMore={this.handleLoadMore} />
         )}
